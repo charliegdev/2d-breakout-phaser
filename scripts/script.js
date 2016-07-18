@@ -4,6 +4,7 @@ var game = new Phaser.Game(480, 320, Phaser.AUTO, null, {
     update: update
 });
 
+var ball;
 function preload() {
     "use strict";
     // keep aspect ratio, but fill screen
@@ -14,7 +15,12 @@ function preload() {
     // set background color
     game.stage.backgroundColor = "#111";
     
+    game.load.image('ball', 'img/ball.png');
 
 }
-function create() {}
+function create() {
+    "use strict";
+    ball = game.add.sprite(50, 50, 'ball');
+
+}
 function update() {}
