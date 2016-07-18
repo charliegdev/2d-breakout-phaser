@@ -18,9 +18,18 @@ function preload() {
     game.load.image('ball', 'img/ball.png');
 
 }
+
 function create() {
     "use strict";
+    // load Phaser's Arcarde physics engine
+    game.physics.startSystem(Phaser.Physics.ARCADE);
     ball = game.add.sprite(50, 50, 'ball');
+    game.physics.enable(ball, Phaser.Physics.ARCADE);
+    ball.body.velocity.set(150, 150);
 
 }
-function update() {}
+
+// executed every frame
+function update() {
+    "use strict";
+
