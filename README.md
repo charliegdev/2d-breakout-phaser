@@ -1,6 +1,7 @@
 # 2D Breakout Phaser
 
-![screenshot](status-jul-16.png)
+[Play it here!](https://charliegdev.github.io/2d-breakout-phaser/)
+![screenshot](status-jul-21.png)
 
 This is a 2D breakout game developed using [Phaser Framework](http://phaser.io/), counterpart of my [2D Breakout in Vanilla Javascript](https://github.com/charliegdev/2d-breakout-javascript).
 
